@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;    
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    height: 44px;
+}
+
+nav li {
+
+
+}
+
+nav a {
+    letter-spacing: 1px;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}

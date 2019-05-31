@@ -1,0 +1,57 @@
+{% extends 'hub/base.html' %}
+{% load static %}
+
+{% block caro %}
+    <div class="container-fluid">
+        <div id="demo" class="carousel slide rounded-lg" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="{% static 'hub/ajtech.jpg' %}" alt="Ajtech img" width="100%" height="500">
+              <div class="carousel-caption">
+                <h3>AJ Tech</h3>
+                <p>Write something here</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{% static 'hub/ajhubfulllogo.png' %}" alt="ajhubfull logo" width="100%" height="500">
+              <div class="carousel-caption">
+                <h3>AJ Hub</h3>
+                <p>Write something here</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{% static 'hub/design.jpg' %}" alt="design" width="100%" height="500">
+              <div class="carousel-caption">
+                <h3>AJ Design</h3>
+                <p>Write something here</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+</div>
+{% endblock caro %}
+
+{% block post_content %}
+            <div class="content-section">
+                <h3>Our Sidebar</h3>
+                <p class='text-muted'>You can put any information here you'd like.
+                  <ul class="list-group">
+                    <li class="list-group-item list-group-item-light">Latest Posts</li>
+                    <li class="list-group-item list-group-item-light">Announcements</li>
+                    <li class="list-group-item list-group-item-light">Calendars</li>
+                    <li class="list-group-item list-group-item-light">etc</li>
+                  </ul>
+                </p>
+            </div>
+{% endblock post_content %}
