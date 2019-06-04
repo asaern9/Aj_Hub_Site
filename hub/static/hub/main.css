@@ -21,9 +21,27 @@ nav a {
 }
 
 .content-section {
-  background: #ffffff;
+  background: white;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
+}
+
+#infor_content {
+    background-color: aquamarine;
+}
+
+#summary_about {
+    background-color: grey;
+}
+
+#whatWedo {
+    background-color: darkblue;
+    color: white;
+}
+
+#anyX {
+    background-color: burlywood;
+   /* display: none;*/
 }
