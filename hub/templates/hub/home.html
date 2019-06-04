@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block caro %}
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
         <div id="demo" class="carousel slide rounded-lg" data-ride="carousel">
           <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -42,6 +42,10 @@
 </div>
 {% endblock caro %}
 
+{% block infor_content %}
+    <p> any display or informative articles </p>
+{% endblock infor_content %}
+
 {% block post_content %}
             <div class="content-section">
                 <h3>Our Sidebar</h3>
@@ -55,3 +59,19 @@
                 </p>
             </div>
 {% endblock post_content %}
+
+{% block summary_about %}
+    <p>Write small summary about AJ hub here </p>
+    <br />
+    <br />
+    <br />
+{% endblock summary_about %}
+
+{% block whatWedo %}
+    <p>Write about what AJ hub do</p>
+{% endblock whatWedo %}
+
+{% block anyX %}
+    <p>You can post any relevant information here</p>
+    <p> else you can set the display to none</p>
+{% endblock anyX %}
